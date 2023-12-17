@@ -4,6 +4,6 @@ def range(x):
 number = int(input("enter a whole number"))
 
 if range (number):
-    print ("true")
+    print ("True:", number, "is in range")
 else:
-    print ("false")
+    print ("False", number, "is not in range")
